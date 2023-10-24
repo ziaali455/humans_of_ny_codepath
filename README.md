@@ -24,7 +24,7 @@ The following **additional** features are implemented:
 
 Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
 
-[!](https://github.com/ziaali455/project6_codepath_ios/blob/main/unit6-.gif) .
+![](https://github.com/ziaali455/project6_codepath_ios/blob/main/unit6-.gif) .
 
 ## Notes
 
