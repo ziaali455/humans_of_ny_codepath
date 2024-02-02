@@ -1,4 +1,4 @@
-*Tumblr/Humans of NY App*
+#*Tumblr/Humans of NY App*
 
 Submitted by: **Ali**
 
