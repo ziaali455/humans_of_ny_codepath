@@ -2,7 +2,7 @@
 
 Submitted by: **Ali**
 
-**Tumblr** is an app that shows tumblr posts from the Humans of NY account!
+This is an app that shows tumblr posts from the Humans of NY account! It has a working backend that uses the Tumblr API to show posts.
 
 Time spent: **4** hours spent in total
 
