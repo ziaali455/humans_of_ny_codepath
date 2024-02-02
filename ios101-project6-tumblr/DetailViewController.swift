@@ -6,12 +6,21 @@
 //
 
 import UIKit
-
+import Nuke
 class DetailViewController: UIViewController {
+    var post: Post!
 
+    @IBOutlet weak var caption: UITextView!
+    @IBOutlet weak var image: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        caption.text = post.caption
+        if let imageURL = post.photos.first?.originalSize.url {
+            let urlRequest = URLRequest(url: imageURL)
 
+            // Load the image using Nuke and assign it to the UIImageView
+            Nuke.loadImage(with: urlRequest, into: image)
+        }
         // Do any additional setup after loading the view.
     }
     
